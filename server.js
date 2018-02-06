@@ -3,12 +3,12 @@
 const express = require('express');
 
 // Constants
-const PORT = 8080;
+const PORT = 8081;
 
 // App
 const app = express();
 app.get('/', function (req, res) {
-  res.send('Hello new world\n');
+  res.send('EB Custom VPC, behind ELB, multi AZ\n');
 });
 
 app.listen(PORT);
