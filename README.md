@@ -5,7 +5,7 @@ This example shows how you can terminate HTTPS in your Elastic Beanstalk environ
 ### Requirements
 1. ACM certifacte to attach your EB Load Balancer
 2. Update [https-lb-terminate.config](.ebextensions/https-lb-terminate.config) with your ACM ceritifacate ARN
-3.  2. Update [https.config](.ebextensions/https.config) with your desired domain in both server blocks.
+3. Update [https.config](.ebextensions/https.config) with your desired domain in both server blocks.
 4.  Create an Elastic Beanstalk environment
 5.  `$ eb create redirect-apex -p "64bit Amazon Linux 2017.09 v4.4.6 running Node.js"`
 
